@@ -1,0 +1,21 @@
+{
+  "name": "logger-app",
+  "version": "1.0.0",
+  "description": "Small app to test examples with the logger",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:framirez4/logger-example-app.git"
+  },
+  "scripts": {
+    "debug": "DEBUG=my-logger-example node app.js"
+  },
+  "author": "Francesc Ramírez",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^2.6.6",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "winston": "^2.3.1"
+  }
+}
