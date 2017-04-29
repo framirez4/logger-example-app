@@ -36,4 +36,3 @@ app.listen(3000)
 
 // fake worker of some kind
 require('./worker')
-
